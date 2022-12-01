@@ -1,4 +1,4 @@
-<?php $this->layout('master') ?>
+<?php $this->layout('master', ['title' => 'entrada']) ?>
 
 <section class="">
     <div class="container">
@@ -11,7 +11,7 @@
 
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <button class="btn btn-primary" type="submit">Calcular</button>
+                                <button class="btn btn-primary" type="submit" name="valorEntrado">Calcular</button>
                             </div>
                             <input type="text" name="entrada" placeholder="Digite a o valor da sua entrada" class="form-control">
                         </div>

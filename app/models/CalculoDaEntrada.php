@@ -1,18 +1,16 @@
 <?php
 
-namespace app\classes;
+namespace app\models;
 
-use app\interfaces\CalcularInterface;
-
-class Calcular implements CalcularInterface
-{   
-    private float $percentual = 20;
+class CalculoDaEntrada
+{
+    private float $percentual;
     private float $x;
-    private float $z;    
+    private float $z;
 
     public function calcular(float $entrada){
         //Variavel declarada  
-     $this->percentual;
+     $this->percentual = 20;
 	 //Processo para achar  os 20 porcentos  
 	 $this->x = ($this->percentual / 100) * $entrada;
 	 //Total do dinheiro tirando 20% do ajudante.  Neste caso fica como acumulador
@@ -32,13 +30,4 @@ class Calcular implements CalcularInterface
     public function getZ(){
         return $this->z;
     }
-
-    // public function setX(float $x){
-    //     $this->x = $x;
-    // }
-
-    // public function setZ(float $z){
-    //     $this->z = $z;
-    // }
-
 }
