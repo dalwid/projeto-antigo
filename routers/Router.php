@@ -38,10 +38,7 @@ class Router
             'get' => [
                 '/'        => fn() => self::load('EntradaController', 'index'),
                 '/contact' => fn() => self::load('ContactController', 'index'),              
-                '/calculo' => fn() => self::load('CalculoController', 'index'),              
-                '/product' => fn() => self::load('ProductController', 'index')              
-                          
-                
+                '/calculo' => fn() => self::load('CalculoController', 'index')
             ],
 
             'post' =>[
@@ -52,10 +49,6 @@ class Router
 
             'put' => [
                 '/product' => fn() => self::load('ProductController', 'update'),
-            ],
-
-            'delete' => [
-
             ]
         ];
     }
