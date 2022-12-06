@@ -1,14 +1,15 @@
 {
-    "name": "avraham/antigo",
-    "description": "Atualização e correção de certos bug, e implementação do regex ou a tentativa dele",
+    "name": "avrah/shineup",
+    "description": "Refazendo projeto que me ajudou em 2014 a lavarcarros pra ganahr uns trocados",
     "autoload": {
         "psr-4": {
-            "Avraham\\Antigo\\": "src/"
+            "app\\": "app"
         }
     },
     "authors": [
         {
-            "name": "David Teixeira Pereira Ferreira"
+            "name": "David Teixeira Pereira Ferreira (Avraham ben Avraham Perets)",
+            "email": "davidbenavraham.ti@gmail.com"
         }
     ],
     "require": {
