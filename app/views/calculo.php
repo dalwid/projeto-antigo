@@ -1,5 +1,5 @@
 <?php
-    $this->layout('master'); 
+$this->layout('master'); 
  ?>
 
 <section class="">
@@ -35,13 +35,12 @@
 
         <div class="form-row">
           <div class="form-group col-md-12">
-            <a href="/" class="btn btn-primary btn-block">Calcular</a>
+            <a href="/" class="btn btn-primary btn-block">Calcular mais</a>
           </div>
-        </div>  
+        </div>
 
       </form>    
 
   </div>
 </section>
-
-<?php session_destroy(); ?>
+<?php session_destroy();?>

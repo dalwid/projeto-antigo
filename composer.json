@@ -1,6 +1,6 @@
 {
-    "name": "avrah/shineup",
-    "description": "Refazendo projeto que me ajudou em 2014 a lavarcarros pra ganahr uns trocados",
+    "name": "avraham/project",
+    "description": "reinteranto o projeto de forma adequada",
     "autoload": {
         "psr-4": {
             "app\\": "app"
@@ -8,8 +8,7 @@
     },
     "authors": [
         {
-            "name": "David Teixeira Pereira Ferreira (Avraham ben Avraham Perets)",
-            "email": "davidbenavraham.ti@gmail.com"
+            "name": "David Teieira Pereira Ferreira"
         }
     ],
     "require": {

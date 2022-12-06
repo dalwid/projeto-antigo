@@ -12,12 +12,14 @@ class CalculoController extends Controller
     }
 
     public function store($field){
-        session_start();        
-        
+        session_start();
+              
         $field = (float) filter_input(INPUT_POST,'entrada',FILTER_DEFAULT);
-       
-        Validar::validate($field);
-        
+
+        if(!Validar::validate($field)){
+            header('Location: /');
+        }        
+
         $calculo = new CalculoDaEntrada;
         
         $calculo->calcular($field);
@@ -26,7 +28,6 @@ class CalculoController extends Controller
         $_SESSION['restante']  = $calculo->getZ();
        
         $this->view('calculo');
-        
     }
 
     

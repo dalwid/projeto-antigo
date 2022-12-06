@@ -36,19 +36,13 @@ class Router
     public static function routers():array{
         return [
             'get' => [
-                '/'        => fn() => self::load('EntradaController', 'index'),
-                '/contact' => fn() => self::load('ContactController', 'index'),              
+                '/'        => fn() => self::load('EntradaController', 'index'),                
                 '/calculo' => fn() => self::load('CalculoController', 'index')
             ],
 
-            'post' =>[
-                '/contact' => fn() => self::load('ContactController', 'store'),
+            'post' =>[                
                 '/calculo' => fn() => self::load('CalculoController', 'store'),
-                '/entrada' => fn() => self::load('ContactController', 'store')
-            ],
-
-            'put' => [
-                '/product' => fn() => self::load('ProductController', 'update'),
+                '/entrada' => fn() => self::load('EntradatController', 'store')
             ]
         ];
     }
@@ -70,8 +64,7 @@ class Router
             $router = $routes[$request][$uri];            
 
             if(!is_callable($router)){
-                throw new \Exception("Route {$uri} is not calllable");
-                
+                throw new \Exception("Route {$uri} is not calllable");                
             }
 
             $router();
