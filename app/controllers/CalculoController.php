@@ -15,7 +15,11 @@ class CalculoController extends Controller
         session_start();
               
         $field = (float) filter_input(INPUT_POST,'entrada',FILTER_DEFAULT);
-        
+
+        if(!Validar::validate($field)){
+            header('Location: /');
+        }        
+
         $calculo = new CalculoDaEntrada;
         
         $calculo->calcular($field);

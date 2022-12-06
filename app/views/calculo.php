@@ -2,7 +2,6 @@
 $this->layout('master'); 
  ?>
 
-
 <section class="">
   <div class="container">
     
@@ -34,8 +33,14 @@ $this->layout('master');
           </div>
         </div>
 
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <a href="/" class="btn btn-primary btn-block">Calcular mais</a>
+          </div>
+        </div>
+
       </form>    
 
   </div>
 </section>
-
+<?php session_destroy();?>

@@ -7,8 +7,7 @@
 
                 <div class="mt-5 pt-5">    
                     <form action="/calculo" method="post" class="form-group mt-5 pt-5">
-
-
+                        
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <button class="btn btn-primary" type="submit" name="valorEntrado">Calcular</button>
