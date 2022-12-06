@@ -1,14 +1,13 @@
 {
-    "name": "avrah/shineup",
-    "description": "Refazendo projeto que me ajudou em 2014 a lavarcarros pra ganahr uns trocados",
+    "name": "avrah/rota-simples-poo",
     "autoload": {
         "psr-4": {
-            "app\\": "app"
+            "app\\": "app/"
         }
     },
     "authors": [
         {
-            "name": "David Teixeira Pereira Ferreira (Avraham ben Avraham Perets)",
+            "name": "David Teixeira Pereira Ferreira",
             "email": "davidbenavraham.ti@gmail.com"
         }
     ],
