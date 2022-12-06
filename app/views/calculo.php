@@ -1,6 +1,7 @@
 <?php
-    $this->layout('master'); 
+$this->layout('master'); 
  ?>
+
 
 <section class="">
   <div class="container">
@@ -33,15 +34,8 @@
           </div>
         </div>
 
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <a href="/" class="btn btn-primary btn-block">Calcular</a>
-          </div>
-        </div>  
-
       </form>    
 
   </div>
 </section>
 
-<?php session_destroy(); ?>

@@ -36,19 +36,16 @@ class Router
     public static function routers():array{
         return [
             'get' => [
-                '/'        => fn() => self::load('EntradaController', 'index'),
-                '/contact' => fn() => self::load('ContactController', 'index'),              
-                '/calculo' => fn() => self::load('CalculoController', 'index')
+                '/'        => fn() => self::load('EntradaController', 'index'),                
+                '/calculo' => fn() => self::load('CalculoController', 'index'),              
+                '/product' => fn() => self::load('ProductController', 'index')              
+                          
+                
             ],
 
-            'post' =>[
-                '/contact' => fn() => self::load('ContactController', 'store'),
+            'post' =>[                
                 '/calculo' => fn() => self::load('CalculoController', 'store'),
                 '/entrada' => fn() => self::load('ContactController', 'store')
-            ],
-
-            'put' => [
-                '/product' => fn() => self::load('ProductController', 'update'),
             ]
         ];
     }
