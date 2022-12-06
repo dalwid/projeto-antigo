@@ -3,7 +3,8 @@
 era feito em progrmação estruturada.
 este código que está aqui é uma reformulação para fins de trieno de boas práticas.
 
-#Origem
+# Origem
+
 A origem desse projeto era de me a judar a contabilizar e divir os percentuais numa
 garagem onde eu e o responsável lavamos  e cudidavamos dos carros.
 As vezes acorreria era tanta que não dava tempo de parar para calcular os percentuais então
