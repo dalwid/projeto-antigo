@@ -1,7 +1,7 @@
 # projeto-antigo
 
 era feito em progrmação estruturada.
-este código que está aqui é uma reformulação para fins de trieno de boas práticas.
+este código que está aqui é uma reformulação para fins de treino de boas práticas.
 
 # Origem
 
