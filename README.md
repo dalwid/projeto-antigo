@@ -12,5 +12,5 @@ desenvolve esse programinha para nos ajduar e deu muito certo o o pequeno sistem
 mas o programinha ficou e me ajudou ater mais empolgaçã oem php na época, porém a fome me fez largar a programação  
 
 <hr>
-<br>
+
 feito em 2014
